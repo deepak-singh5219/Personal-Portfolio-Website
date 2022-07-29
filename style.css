@@ -148,22 +148,18 @@ width:180px;
     margin-right:10px;
 }
 
+.header .right{
+    background-color: #28292D;
+    border-radius: 100%;
+
+}
+
 .header .right .myphoto{
     width:600px;
 
 }
 
 
-/* .circle{
-    position:absolute;
-    top:200px;
-    right:200px;
-    height:500px;
-    width:500px;
-    background-color: #28292D;
-    border-radius: 100%;
-    z-index:-1;
-} */
 
 
 .about-me{
