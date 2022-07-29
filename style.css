@@ -4,6 +4,8 @@
     font-family: 'Nanum Gothic Coding', monospace;
 }
 
+
+
 body{
     background-color: #2D2E32;
 }
@@ -11,11 +13,11 @@ body{
 .navbar{
 display: flex;
 align-items: center;
-justify-content: space-between;
+justify-content: space-around;
 padding-top:20px;
 padding-bottom:10px;
-padding-left:60px;
-padding-right:60px;
+/* padding-left:40px;
+padding-right:40px; */
 background-color: #2D2E32;
 height:80px;
 position: sticky;
@@ -43,7 +45,7 @@ list-style:none;
 display: flex;
 align-items: center;
 justify-content: space-between;
-width:600px;
+width:450px;
 font-weight:500;
 color:#ffffff;
 }
@@ -63,7 +65,7 @@ color:#ffffff;
     display: flex;
 align-items: center;
 justify-content: space-between;
-width:200px;
+width:180px;
 
 }
 
@@ -98,7 +100,7 @@ width:200px;
     
     width:200px;
     background-color:#5FEAA4;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
     padding-top: 10px;
     padding-bottom:10px;
@@ -106,8 +108,8 @@ width:200px;
 }
 
 .header .left .tagline{
-    font-size:100px;
-    width:800px;
+    font-size:70px;
+    width:600px;
     color:#ffffff;
 }
 
@@ -147,7 +149,7 @@ width:200px;
 }
 
 .header .right .myphoto{
-    width:800px;
+    width:600px;
 
 }
 
@@ -155,9 +157,9 @@ width:200px;
 .circle{
     position:absolute;
     top:200px;
-    right:200px;
-    height:650px;
-    width:650px;
+    right:350px;
+    height:500px;
+    width:500px;
     background-color: #28292D;
     border-radius: 100%;
     z-index:-1;
@@ -178,7 +180,7 @@ width:200px;
     display:flex;
     align-items: center;
     justify-content: space-between;
-    width: 1400px;
+    width: 1100px;
     margin-top: 150px;
     margin-bottom:150px;
  
@@ -308,10 +310,10 @@ width:200px;
 }
 
 .projects .project-card{
-    margin-left:150px;
-    margin-right:150px;
     padding:50px;
     background-color:#2D2E32;
+    margin-left:80px;
+    margin-right:80px;
     
 }
 
@@ -350,8 +352,8 @@ width:200px;
 .projects .lower{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
+    justify-content: center;
+    
     
 }
 .project-card .screenshot{
@@ -392,7 +394,7 @@ width:200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width:1400px;
+    width:1100px;
 }
 
 .footer .upper .heading{
